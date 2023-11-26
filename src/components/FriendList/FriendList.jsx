@@ -1,5 +1,5 @@
 import React from 'react';
-import css from './FriendList.module.css'
+import css from './FriendList.module.css';
 
 export const FriendList = ({ friends }) => {
   return (
@@ -7,9 +7,9 @@ export const FriendList = ({ friends }) => {
       <ul className={css.friendlist}>
         {friends.map(friend => (
           <li className={css.item} key={friend.id}>
-            <span className={`${css.status} ${friend.isOnline ? css.off : ''}`}>
-              
-            </span>
+            <span
+              className={`${css.status} ${friend.isOnline ? css.off : ''}`}
+            ></span>
             <img
               className="avatar"
               src={friend.avatar}

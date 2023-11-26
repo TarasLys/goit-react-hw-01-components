@@ -1,35 +1,35 @@
 .list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .tabrowgrey {
-    background-color: rgb(188, 181, 181);
+  background-color: rgb(188, 181, 181);
 }
 
 .tabrowweite {
-    background-color: white;
+  background-color: white;
 }
 
 td {
-    width: 205px;
-    height: 35px;
-    border: 1px solid #aeabab;
-text-align:center;
-    vertical-align: middle;
+  width: 205px;
+  height: 35px;
+  border: 1px solid #aeabab;
+  text-align: center;
+  vertical-align: middle;
 }
 
 th {
-    background-color: rgb(48, 144, 144);
-    width: 205px;
-        height: 35px;
-        border: 1px solid #aeabab;
-        color: aliceblue;
-        text-transform: uppercase;
+  background-color: rgb(48, 144, 144);
+  width: 205px;
+  height: 35px;
+  border: 1px solid #aeabab;
+  color: aliceblue;
+  text-transform: uppercase;
 }
 
 .transactionhistory {
-box-shadow: 2px 2px 4px green, inset -2px -2px 4px red;
+  box-shadow: 2px 2px 4px green, inset -2px -2px 4px red;
 }

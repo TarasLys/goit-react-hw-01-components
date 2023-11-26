@@ -1,69 +1,67 @@
 .avatar {
-    width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin: 30px auto 30px auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 30px auto 30px auto;
 }
 
 .profile {
-    height: 335px;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    color: #010101;     
-    margin-top: 100px;
-    padding-bottom: 0px;
-    border: 1px solid #939090;
-    box-shadow: 2px 2px 4px green;
-    margin-bottom: 50px;
+  height: 335px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  color: #010101;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  border: 1px solid #939090;
+  box-shadow: 2px 2px 4px green;
+  margin-bottom: 50px;
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .name {
-    font-size: 20px;
+  font-size: 20px;
 }
 .tag {
-    font-size: 14px;
-    margin: 5px auto 5px auto;
-    justify-content: center;
-    color:#807e7e;
+  font-size: 14px;
+  margin: 5px auto 5px auto;
+  justify-content: center;
+  color: #807e7e;
 }
 .location {
-    font-size: 12px;
-    color: #807e7e;
+  font-size: 12px;
+  color: #807e7e;
 }
 .stats {
-    display: flex;
-    list-style-type: none;
-    background-color: #e6f2f2;
-    width: 250px;
-    height: 75px;
-    margin-top: 23px;
-
+  display: flex;
+  list-style-type: none;
+  background-color: #e6f2f2;
+  width: 250px;
+  height: 75px;
+  margin-top: 23px;
 }
 .label {
-    font-size: 12px;
-    color: #807e7e;
+  font-size: 12px;
+  color: #807e7e;
 }
 
 .quantity {
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .position {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    justify-content: center;
-        align-items: center;
-    border: 1px solid #aeabab;
-    
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #aeabab;
 }

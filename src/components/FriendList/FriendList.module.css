@@ -1,12 +1,12 @@
 .list {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .status {
-    display: inline-block;
+  display: inline-block;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -14,7 +14,7 @@ margin-top: 50px;
 }
 
 .off {
-    display: inline-block;
+  display: inline-block;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -36,12 +36,10 @@ margin-top: 50px;
 .friendlist {
   display: flex;
   flex-direction: column;
-gap: 10px;
+  gap: 10px;
 }
 
 .name {
   font-size: 24px;
   font-weight: 500;
 }
-
-

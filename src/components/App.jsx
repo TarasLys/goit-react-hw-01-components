@@ -6,7 +6,7 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import user from '../user';
 import data from '../data';
 import { friends } from '../friends.js';
-import { transactions } from "../transactions.js"
+import { transactions } from '../transactions.js';
 
 export const App = () => {
   console.log(friends);
