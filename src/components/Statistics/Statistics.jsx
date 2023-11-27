@@ -1,12 +1,10 @@
 import React from 'react';
 import css from './Statistics.module.css';
-import { getRandomHexColor } from './color.js';
+import { getRandomHexColor } from '../Helpers/color.js';
 
-export const Statistics = ({ title, stats }) => {
+export const Statistics = ({ stats }) => {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
-
       <ul className={css.statlist}>
         {stats.map(stat => (
           <li

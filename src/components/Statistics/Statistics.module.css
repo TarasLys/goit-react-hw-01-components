@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   width: 310px;
-  height: 150px;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 2px 2px 4px green;
@@ -17,7 +17,7 @@
   flex-direction: row;
   width: 310px;
 
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .item {
@@ -29,7 +29,7 @@
   height: 70px;
 }
 
-.title {
+/* .title {
   text-transform: uppercase;
   margin-top: 25px;
-}
+} */
